@@ -95,7 +95,7 @@ createTectonicPlates = (response) => {
 
 
 
-// Perform an API call to the USGS API to get the information. Call createMarkers when it completes.
+// Perform an API calls to the USGS API to get the information. Call createMarkers when it completes.
 d3.json(earthQuakesJSON).then(createMarkers);
 d3.json(tectonicJSON).then(createTectonicPlates)
 
@@ -112,7 +112,7 @@ function addLayerControls() {
     }
 }
 
-
+// create the legend in the bottom right describing earthquake depths
 function createLegend(map) {
     let legend = L.control({ position: 'bottomright' });
 

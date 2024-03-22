@@ -1,4 +1,4 @@
-# leaflet-challenge
+# Earthquake Visualization Using Leaflet
 
 Leaflet visualization of earthquakes using United States Geological Survey (USGS) data
 
